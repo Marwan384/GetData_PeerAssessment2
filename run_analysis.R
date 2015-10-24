@@ -74,4 +74,4 @@ Data_Sub <- as.data.table(Data_Sub)
 
 Data_Mean <- Data_Sub[, lapply(.SD,mean), by = list(Subject_ID, Activity_ID, Activity_Name)]
 
-write.table(Data_Mean, "Data_Mean.txt",  sep = ",", row.names = FALSE)
+write.table(Data_Mean, "C:/Users/user/Documents/R/Git_Repos/GetData_PeerAssessment2/Data_Mean.txt",  sep = ",", row.names = FALSE)
